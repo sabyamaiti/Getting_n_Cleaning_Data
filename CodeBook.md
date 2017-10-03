@@ -1,4 +1,4 @@
-Code Book for getting and cleaning data project
+#Code Book for getting and cleaning data project
 
 The data set that this code book pertains to is located in the tidy_data.txt file of this repository.
 
@@ -30,7 +30,7 @@ WALKING: subject was walking WALKING_UPSTAIRS: subject was walking upstairs WALK
 
 All measurements are floating-point values, normalised and bounded within [-1,1].
 
-Prior to normalisation, acceleration measurements (variables containing Accelerometer) were made in g's (9.81 m.s?²) and gyroscope measurements (variables containing Gyroscope) were made in radians per second (rad.s?¹).
+Prior to normalisation, acceleration measurements (variables containing Accelerometer) were made in g's (9.81 m.s?Â²) and gyroscope measurements (variables containing Gyroscope) were made in radians per second (rad.s?Â¹).
 
 Magnitudes of three-dimensional signals (variables containing Magnitude) were calculated using the Euclidean norm.
 
