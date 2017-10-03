@@ -6,7 +6,7 @@ The structure of the data set is described in the Data section, its variables ar
 
 Data
 
-The tidy_data.csv data file is a csv file.
+The tidydata.txt is a text file, containing space-separated values.
 
 The first row contains the names of the variables, which are listed and described in the Variables section, and the following rows contain the values of these variables.
 
