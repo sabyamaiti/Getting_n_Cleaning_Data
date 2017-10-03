@@ -6,7 +6,7 @@ In this project, data collected from the accelerometer and gyroscope of the Sams
 
 This repository contains the following files:
 
-README.md, this file, which provides an overview of the data set and how it was created. tidy_data.csv, which contains the data set. CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data). run_analysis.R, the R script that was used to create the data set (see the Creating the data set section below) Study design
+README.md, this file, which provides an overview of the data set and how it was created. tidydata.txt, which contains the data set. CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data). run_analysis.R, the R script that was used to create the data set (see the Creating the data set section below) Study design
 
 The source data set that this project was based on was obtained from the Human Activity Recognition Using Smartphones Data Set, which describes how the data was initially collected as follows:
 
@@ -18,4 +18,4 @@ Creating the data set
 
 The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
 
-Download and unzip source data if it doesn't exist. Read data. Merge the training and the test sets to create one data set. Extract only the measurements on the mean and standard deviation for each measurement. Use descriptive activity names to name the activities in the data set. Appropriately label the data set with descriptive variable names. Create a second, independent tidy set with the average of each variable for each activity and each subject. Write the data set to the tidy_data.csv file. The tidy_data.csv in this repository was created by running the run_analysis.R script using R version 3.4.1 on Windows 7 64-bit edition.
+Download and unzip source data if it doesn't exist. Read data. Merge the training and the test sets to create one data set. Extract only the measurements on the mean and standard deviation for each measurement. Use descriptive activity names to name the activities in the data set. Appropriately label the data set with descriptive variable names. Create a second, independent tidy set with the average of each variable for each activity and each subject. Write the data set to the tidydata.txt file. The tidydata.txt in this repository was created by running the run_analysis.R script using R version 3.4.1 on Windows 7 64-bit edition.
