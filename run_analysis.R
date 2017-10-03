@@ -4,8 +4,7 @@
 ## Overview:
 ## R Script file for Coursera Assigment on Getting & Cleaning data 
 ## Script Will get data and perform the various operations needed for the assignment 
-## Refer to Readme file and 
-## Operation that will be done
+## Refer to Readme file and CodeBook.md for details of operation that will be done
 ## Get Data by downloading and unzipping file 
 ## 1. Merges the training and the test sets to create one data set.
 ##2. Extracts only the measurements on the mean and standard deviation for each measurement.
